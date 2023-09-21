@@ -1,0 +1,5 @@
+
+@startuml sequence_diagram
+Sensor->PLC : part detected
+PLC->ABB : top
+@enduml
