@@ -1,0 +1,9 @@
+[book]
+authors = ["Michael Rolink"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Process & Safety assignment"
+
+[preprocessor.plantuml]
+plantuml-cmd="http://localhost:8080"
