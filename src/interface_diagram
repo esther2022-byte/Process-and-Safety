@@ -7,9 +7,17 @@ left to right direction
 
 component valve_assembly {
     
-    ()gripper
-    
+    []Gripper 
 
+    []Robot
+
+    []Jig
+
+    []PLC
+
+    []Valve
+
+    []Sensor
 }
 @enduml
 ```
