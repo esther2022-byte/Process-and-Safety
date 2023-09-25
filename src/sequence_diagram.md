@@ -1,4 +1,4 @@
-# Chapter 1
+# Sequence diagram
 
 dit is een sequence diagram
 

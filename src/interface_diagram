@@ -1,0 +1,15 @@
+# Interface diagram
+
+```plantuml
+@startuml pickup_parcel_from_coveyor
+skinparam backgroundColor transparent
+left to right direction
+
+component valve_assembly {
+    
+    ()gripper
+    
+
+}
+@enduml
+```
