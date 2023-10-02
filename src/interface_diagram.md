@@ -1,23 +1,28 @@
 # Interface diagram
 
+Parts:
+- Gripper
+- Robot
+- Jig
+- PLC
+- Valve
+- Sensor(s)
+
 ```plantuml
 @startuml pickup_parcel_from_coveyor
 skinparam backgroundColor transparent
 left to right direction
-
 component valve_assembly {
-    
-    []Gripper 
 
-    []Robot
+    [Gripper]
+    Gripper -> ()end_effector
 
-    []Jig
+    [Robot]
+    ()end_effector -- Robot
 
-    []PLC
+    [PLC]
+    PLC -> Robot
 
-    []Valve
-
-    []Sensor
 }
 @enduml
 ```
