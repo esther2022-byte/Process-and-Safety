@@ -1,9 +1,10 @@
 [book]
-authors = ["Michael Rolink"]
+authors = ["Angelique"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Process & Safety assignment"
+title = "Process and Safety"
 
 [preprocessor.plantuml]
 plantuml-cmd="http://localhost:8080"
+
