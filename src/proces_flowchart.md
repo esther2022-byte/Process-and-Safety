@@ -15,7 +15,7 @@ else (yes)
     :Grab base of valve;
     :Move to position x mm above part x;
     repeat
-        :Lower and twist base part x mm;
+        :Lower base part x mm;
         :Move x mm up;
         if (part still detected or last part?) then (no)
             :move to next part;
