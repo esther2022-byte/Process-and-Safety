@@ -1,0 +1,35 @@
+@startuml Tasks
+object Tasks {
+    <#lightblue>|= Tasks: | Group member | Done? |
+    <#white>| |
+    <#white>|= Diagrams: | |
+    <#white>| Sequence diagram | Mart, Michael | ✔|
+    <#white>| Process flowchart | | |
+    <#white>| Interface diagram | | |
+    <#white>| State machine diagram | | |
+    <#white>| Visualization GIT workflow | | |
+    <#white>| Time displacement diagram | | |
+    <#white>| Electrical diagram | Esther | |
+    <#white>| |
+    <#white>|= Safety: | | 
+    <#white>| Risk Assesment | Angelique, Esther | ✔ |
+    <#white>| Performance analysis system | | |
+    <#white>| |
+    <#white>|= Realization: | | 
+    <#white>| Design system | Mart, Michael| ✔ |
+    <#white>| Design gripper | Michiel | |
+    <#white>| PLC programming | Michael | ✔ |
+    <#white>| Printing parts | Mart | ✔ |
+    <#white>| Assembly system | Mart, Michael | |
+    <#white>| Robot Programming | | |
+    <#white>| |
+    <#white>|= Finalizing: | |
+    <#white>| Implementation review | | |
+    <#white>| Future improvements | | |
+    <#white>| Assignment analysis/description | | |
+    <#white>| Collaboration contract / division of work | | |
+    <#white>| Submitted documentation | | | 
+
+  
+}
+@enduml
