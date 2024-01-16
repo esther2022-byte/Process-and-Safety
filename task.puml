@@ -4,16 +4,16 @@ object Tasks {
     <#white>| |
     <#white>|= Diagrams: | |
     <#white>| Sequence diagram | Mart, Michael | ✔|
-    <#white>| Process flowchart | | |
-    <#white>| Interface diagram | | |
-    <#white>| State machine diagram | | |
+    <#white>| Process flowchart |Angelique | |
+    <#white>| Interface diagram |Angelique | |
+    <#white>| State machine diagram |Esther| |
     <#white>| Visualization GIT workflow | | |
     <#white>| Time displacement diagram | | |
     <#white>| Electrical diagram | Esther | |
     <#white>| |
     <#white>|= Safety: | | 
     <#white>| Risk Assesment | Angelique, Esther | ✔ |
-    <#white>| Performance analysis system | | |
+    <#white>| Performance analysis system |Esther | |
     <#white>| |
     <#white>|= Realization: | | 
     <#white>| Design system | Mart, Michael| ✔ |
@@ -22,13 +22,12 @@ object Tasks {
     <#white>| Printing parts | Mart | ✔ |
     <#white>| Assembly system | Mart, Michael | |
     <#white>| Wiring system | Mart, Michael | |
-    <#white>| Robot Programming | | |
+    <#white>| Robot Programming | Michael, Mart | |
     <#white>| |
     <#white>|= Finalizing: | |
-    <#white>| Design choices overview | | |
-    <#white>| Implementation review | | |
-    <#white>| Future improvements | | |
-    <#white>| Assignment analysis/description | | |
+    <#white>| Implementation review |Michael | |
+    <#white>| Future improvements | Mart Angelique| |
+    <#white>| Assignment analysis/description |Esther  | |
     <#white>| Collaboration contract / division of work | | |
     <#white>| Submitted documentation | | | 
 
