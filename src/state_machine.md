@@ -1,24 +1,36 @@
 # State machine
 
 ```plantuml
-@startuml state
+@startuml
+
 skinparam backgroundColor transparent
 left to right direction
-component valve_assembly {
-  [state_0 PLC_idle]  
-  [state_1_PLC_check_component]
-  state_0_PLC_idle -> state_1_PLC_check_component 
-  [sensor_detected]
-  state_1_PLC_check_component ->sensor_detected 
-  sensor_detected -> () red_light
-  [state_2_robot_start] 
-  [robot_finish] 
-  [valve_assembly_completed] 
-  state_2_robot_start->robot_finish
-  robot_finish->valve_assembly_completed 
-  valve_assembly_completed -> () red_lamp_off 
-  ()red_lamp_off-> state_0_PLC_idle 
-}
+
+title state_diagram
+
+
+STATE_0 :PLC idle
+STATE_0: Robot idle
+
+STATE_0 --> STATE_1
+
+
+STATE_1 : sensor detects component: sensor high
+STATE_1 : PLC receives sensor input
+
+STATE_1 --> STATE_2: red light high
+
+
+STATE_2: Robot recives PLC signal
+STATE_2: Robot assembles valve
+
+STATE_2--> STATE_3
+STATE_3 :assembly complete
+
+
+STATE_3-->STATE_0: red light off 
+
+
 @enduml
 
 ```
