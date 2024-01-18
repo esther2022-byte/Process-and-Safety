@@ -3,7 +3,6 @@
 ```plantuml
 @startuml
 
-
 State initial {
 [*]-down->idle
 idle -down->PLC : start 
