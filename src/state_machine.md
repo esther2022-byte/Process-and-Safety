@@ -28,7 +28,6 @@ state MotorStop {
   motorStop-down->idle
 }
 
-
 @enduml
 
 
